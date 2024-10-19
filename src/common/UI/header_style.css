@@ -5,12 +5,16 @@
 }
 
 .header {
-    display: flex;
+    width: 100%;
+    /*display: flex;*/
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: #d5d4d6;
     color: white;
+    z-index: 1000;
+    position: fixed;
+    margin: 0;
 }
 
 .logo {

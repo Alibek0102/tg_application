@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import {useEffect} from "react";
 import Header from "./common/UI/Header";
+import Categories from "./Categories/Categories";
 
 const tg = window.Telegram.WebApp;
 
@@ -15,8 +16,9 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div>
       <Header/>
+      <Categories/>
     </div>
   );
 }
