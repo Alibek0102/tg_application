@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {useEffect} from "react";
+import Header from "./common/UI/Header";
 
 const tg = window.Telegram.WebApp;
 
@@ -15,8 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      work
-      <button onClick={onClose}>CLose</button>
+      <Header/>
     </div>
   );
 }
